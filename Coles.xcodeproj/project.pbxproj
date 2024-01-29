@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66C161A2B68701100913742 /* ColesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16192B68701100913742 /* ColesApp.swift */; };
+		D66C161C2B68701100913742 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C161B2B68701100913742 /* ContentView.swift */; };
+		D66C161E2B68701300913742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C161D2B68701300913742 /* Assets.xcassets */; };
+		D66C16212B68701300913742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66C16202B68701300913742 /* Preview Assets.xcassets */; };
+		D66C162B2B68701300913742 /* ColesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C162A2B68701300913742 /* ColesTests.swift */; };
+		D66C16352B68701300913742 /* ColesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16342B68701300913742 /* ColesUITests.swift */; };
+		D66C16372B68701300913742 /* ColesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66C16272B68701300913742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66C160E2B68701100913742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66C16152B68701100913742;
+			remoteInfo = Coles;
+		};
+		D66C16312B68701300913742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66C160E2B68701100913742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66C16152B68701100913742;
+			remoteInfo = Coles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66C16162B68701100913742 /* Coles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C16192B68701100913742 /* ColesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesApp.swift; sourceTree = "<group>"; };
+		D66C161B2B68701100913742 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D66C161D2B68701300913742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D66C16202B68701300913742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D66C16262B68701300913742 /* ColesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C162A2B68701300913742 /* ColesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesTests.swift; sourceTree = "<group>"; };
+		D66C16302B68701300913742 /* ColesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66C16342B68701300913742 /* ColesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesUITests.swift; sourceTree = "<group>"; };
+		D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66C16132B68701100913742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C16232B68701300913742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C162D2B68701300913742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66C160D2B68701100913742 = {
+			isa = PBXGroup;
+			children = (
+				D66C16182B68701100913742 /* Coles */,
+				D66C16292B68701300913742 /* ColesTests */,
+				D66C16332B68701300913742 /* ColesUITests */,
+				D66C16172B68701100913742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66C16172B68701100913742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16162B68701100913742 /* Coles.app */,
+				D66C16262B68701300913742 /* ColesTests.xctest */,
+				D66C16302B68701300913742 /* ColesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66C16182B68701100913742 /* Coles */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16192B68701100913742 /* ColesApp.swift */,
+				D66C161B2B68701100913742 /* ContentView.swift */,
+				D66C161D2B68701300913742 /* Assets.xcassets */,
+				D66C161F2B68701300913742 /* Preview Content */,
+			);
+			path = Coles;
+			sourceTree = "<group>";
+		};
+		D66C161F2B68701300913742 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16202B68701300913742 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D66C16292B68701300913742 /* ColesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D66C162A2B68701300913742 /* ColesTests.swift */,
+			);
+			path = ColesTests;
+			sourceTree = "<group>";
+		};
+		D66C16332B68701300913742 /* ColesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16342B68701300913742 /* ColesUITests.swift */,
+				D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */,
+			);
+			path = ColesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66C16152B68701100913742 /* Coles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C163A2B68701300913742 /* Build configuration list for PBXNativeTarget "Coles" */;
+			buildPhases = (
+				D66C16122B68701100913742 /* Sources */,
+				D66C16132B68701100913742 /* Frameworks */,
+				D66C16142B68701100913742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coles;
+			productName = Coles;
+			productReference = D66C16162B68701100913742 /* Coles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66C16252B68701300913742 /* ColesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C163D2B68701300913742 /* Build configuration list for PBXNativeTarget "ColesTests" */;
+			buildPhases = (
+				D66C16222B68701300913742 /* Sources */,
+				D66C16232B68701300913742 /* Frameworks */,
+				D66C16242B68701300913742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66C16282B68701300913742 /* PBXTargetDependency */,
+			);
+			name = ColesTests;
+			productName = ColesTests;
+			productReference = D66C16262B68701300913742 /* ColesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D66C162F2B68701300913742 /* ColesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66C16402B68701300913742 /* Build configuration list for PBXNativeTarget "ColesUITests" */;
+			buildPhases = (
+				D66C162C2B68701300913742 /* Sources */,
+				D66C162D2B68701300913742 /* Frameworks */,
+				D66C162E2B68701300913742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66C16322B68701300913742 /* PBXTargetDependency */,
+			);
+			name = ColesUITests;
+			productName = ColesUITests;
+			productReference = D66C16302B68701300913742 /* ColesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66C160E2B68701100913742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D66C16152B68701100913742 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D66C16252B68701300913742 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D66C16152B68701100913742;
+					};
+					D66C162F2B68701300913742 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D66C16152B68701100913742;
+					};
+				};
+			};
+			buildConfigurationList = D66C16112B68701100913742 /* Build configuration list for PBXProject "Coles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D66C160D2B68701100913742;
+			productRefGroup = D66C16172B68701100913742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66C16152B68701100913742 /* Coles */,
+				D66C16252B68701300913742 /* ColesTests */,
+				D66C162F2B68701300913742 /* ColesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66C16142B68701100913742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C16212B68701300913742 /* Preview Assets.xcassets in Resources */,
+				D66C161E2B68701300913742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C16242B68701300913742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C162E2B68701300913742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66C16122B68701100913742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C161C2B68701100913742 /* ContentView.swift in Sources */,
+				D66C161A2B68701100913742 /* ColesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C16222B68701300913742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C162B2B68701300913742 /* ColesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66C162C2B68701300913742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66C16352B68701300913742 /* ColesUITests.swift in Sources */,
+				D66C16372B68701300913742 /* ColesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66C16282B68701300913742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66C16152B68701100913742 /* Coles */;
+			targetProxy = D66C16272B68701300913742 /* PBXContainerItemProxy */;
+		};
+		D66C16322B68701300913742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66C16152B68701100913742 /* Coles */;
+			targetProxy = D66C16312B68701300913742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D66C16382B68701300913742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D66C16392B68701300913742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66C163B2B68701300913742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coles/Preview Content\"";
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.Coles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D66C163C2B68701300913742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coles/Preview Content\"";
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.Coles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D66C163E2B68701300913742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.ColesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coles";
+			};
+			name = Debug;
+		};
+		D66C163F2B68701300913742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.ColesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coles";
+			};
+			name = Release;
+		};
+		D66C16412B68701300913742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.ColesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coles;
+			};
+			name = Debug;
+		};
+		D66C16422B68701300913742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4HVNQTX75;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.farahaniconsulting.ColesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66C16112B68701100913742 /* Build configuration list for PBXProject "Coles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C16382B68701300913742 /* Debug */,
+				D66C16392B68701300913742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C163A2B68701300913742 /* Build configuration list for PBXNativeTarget "Coles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C163B2B68701300913742 /* Debug */,
+				D66C163C2B68701300913742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C163D2B68701300913742 /* Build configuration list for PBXNativeTarget "ColesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C163E2B68701300913742 /* Debug */,
+				D66C163F2B68701300913742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66C16402B68701300913742 /* Build configuration list for PBXNativeTarget "ColesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66C16412B68701300913742 /* Debug */,
+				D66C16422B68701300913742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66C160E2B68701100913742 /* Project object */;
+}
