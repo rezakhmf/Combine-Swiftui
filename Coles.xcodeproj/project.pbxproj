@@ -14,6 +14,12 @@
 		D66C162B2B68701300913742 /* ColesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C162A2B68701300913742 /* ColesTests.swift */; };
 		D66C16352B68701300913742 /* ColesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16342B68701300913742 /* ColesUITests.swift */; };
 		D66C16372B68701300913742 /* ColesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */; };
+		D66C16472B6870E300913742 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16462B6870E300913742 /* StoreModel.swift */; };
+		D66C16492B6874D100913742 /* Sore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16482B6874D100913742 /* Sore.swift */; };
+		D66C164E2B68768100913742 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C164D2B68768100913742 /* SearchRepository.swift */; };
+		D66C16502B687E1D00913742 /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C164F2B687E1D00913742 /* SearchUseCase.swift */; };
+		D66C16532B68831F00913742 /* StoreContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16522B68831F00913742 /* StoreContent.swift */; };
+		D66C16572B6883A500913742 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66C16562B6883A500913742 /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		D66C16302B68701300913742 /* ColesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D66C16342B68701300913742 /* ColesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesUITests.swift; sourceTree = "<group>"; };
 		D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D66C16462B6870E300913742 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		D66C16482B6874D100913742 /* Sore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sore.swift; sourceTree = "<group>"; };
+		D66C164D2B68768100913742 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		D66C164F2B687E1D00913742 /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		D66C16522B68831F00913742 /* StoreContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreContent.swift; sourceTree = "<group>"; };
+		D66C16562B6883A500913742 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,9 @@
 		D66C16182B68701100913742 /* Coles */ = {
 			isa = PBXGroup;
 			children = (
+				D66C16452B6870AE00913742 /* View */,
+				D66C16442B6870A200913742 /* Domain */,
+				D66C16432B68708E00913742 /* Data */,
 				D66C16192B68701100913742 /* ColesApp.swift */,
 				D66C161B2B68701100913742 /* ContentView.swift */,
 				D66C161D2B68701300913742 /* Assets.xcassets */,
@@ -125,6 +140,81 @@
 				D66C16362B68701300913742 /* ColesUITestsLaunchTests.swift */,
 			);
 			path = ColesUITests;
+			sourceTree = "<group>";
+		};
+		D66C16432B68708E00913742 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D66C164B2B68764E00913742 /* Repository */,
+				D66C164A2B68763500913742 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D66C16442B6870A200913742 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D66C164C2B68765A00913742 /* UseCase */,
+				D66C16482B6874D100913742 /* Sore.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		D66C16452B6870AE00913742 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16552B68838A00913742 /* ViewModel */,
+				D66C16512B6882F400913742 /* Screen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D66C164A2B68763500913742 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16462B6870E300913742 /* StoreModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D66C164B2B68764E00913742 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				D66C164D2B68768100913742 /* SearchRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		D66C164C2B68765A00913742 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				D66C164F2B687E1D00913742 /* SearchUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		D66C16512B6882F400913742 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16542B68837900913742 /* Store */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		D66C16542B68837900913742 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16522B68831F00913742 /* StoreContent.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D66C16552B68838A00913742 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D66C16562B6883A500913742 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66C16572B6883A500913742 /* SearchViewModel.swift in Sources */,
+				D66C16472B6870E300913742 /* StoreModel.swift in Sources */,
 				D66C161C2B68701100913742 /* ContentView.swift in Sources */,
+				D66C164E2B68768100913742 /* SearchRepository.swift in Sources */,
+				D66C16492B6874D100913742 /* Sore.swift in Sources */,
 				D66C161A2B68701100913742 /* ColesApp.swift in Sources */,
+				D66C16532B68831F00913742 /* StoreContent.swift in Sources */,
+				D66C16502B687E1D00913742 /* SearchUseCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

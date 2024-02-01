@@ -11,7 +11,8 @@ import SwiftUI
 struct ColesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let viewModel = SearchViewModel(useCase: DefaultSearchUseCase(repository: DefaultSearchRepository()))
+            StoreContent(viewModel: viewModel)
         }
     }
 }
